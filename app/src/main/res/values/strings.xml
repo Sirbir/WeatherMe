@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Weather Me</string>
+
+    <string name="about_message">  Weather Me is an app that was created to simplify the process of determining what to wear for specific weather conditions.  Simply enter a location and touch the WeatherMe button to receive clothing suggestions as well as a full weather report."</string>
+
+    <string name="s_30_r">"You should wear thick pants, a long sleeve shirt, a removable top, a big warm jacket, hat, gloves, and a thick scarf with boots or warm shoes.  It will probably rain so bring an umbrella. </string>
+    <string name="s_40_r">"You should wear comfortable jeans or slacks and a long sleeve top with a high neckline with a short light insulating jacket. Throw on a sweater if you get cold easily.  It will probably rain so bring an umbrella."</string>
+    <string name="s_50_r">"You should wear comfortable jeans or slacks, a long sleeve shirt, and a sweater and/or a short light jacket with closed foot shoes.  It will probably rain so bring an umbrella"</string>
+    <string name="s_60_r_b">"You should wear comfortable jeans or slacks, a long sleeve or short sleeve shirt, and a thin removable top.  If you are not sensitive to cold open foot shoes are doable.  It will probably rain so bring an umbrella."</string>
+    <string name="s_60_r_g">"You should wear comfortable jeans or slacks, a long sleeve or short sleeve shirt, and a thin removable top.  If you are not sensitive to cold open foot shoes and a warm dress might be okay.  It will probably rain so bring an umbrella."</string>
+    <string name="s_70_r_b">"You should wear a thin shirt with thin pants or shorts.  Open toed or foot exposing shoes or slippers are recommended.  It will probably rain so bring an umbrella."</string>
+    <string name="s_70_r_g">"You should wear a thin shirt with thin pants, shorts, or a thin short skirt.  A thin dress also works.  Open toed or foot exposing shoes or slippers are recommended.  It will probably rain so bring an umbrella."</string>
+
+
+    <string name="s_30_nr">"You should wear thick pants, a long sleeve shirt, a removable top, a big warm jacket, hat, gloves, and a thick scarf with boots or warm shoes.  It probably won't rain so no need for an umbrella. </string>
+    <string name="s_40_nr">"You should wear comfortable jeans or slacks and a long sleeve top with a high neckline with a short and light insulating coat or jacket.  Throw on a sweater if you get cold easily.  It probably won't rain so no need for an umbrella."</string>
+    <string name="s_50_nr">"You should wear comfortable jeans or slacks, a long sleeve shirt, and a sweater and/or a short light jacket with closed foot shoes.  It probably won't rain so no need for an umbrella."</string>
+    <string name="s_60_nr_b">"You should wear comfortable jeans or slacks ,a long sleeve or short sleeve shirt, and a thin removable top.  If you are not sensitive to cold open foot shoes might be okay.  It probably won't rain so no need for an umbrella."</string>
+    <string name="s_60_nr_g">"You should wear comfortable jeans or slacks ,a long sleeve or short sleeve shirt, and a thin removable top.  If you are not sensitive to cold open foot shoes and a warm dress might be okay.  It probably won't rain so no need for an umbrella."</string>
+    <string name="s_70_nr">"You should wear a thin shirt with thin pants or shorts with foot exposing shoes or slippers.  It probably won't rain so no need for an umbrella."</string>
+    <string name="s_70_nr_g">"You should wear a thin shirt with thin pants, shorts, or a thin short skirt with open toed or foot exposing shoes or slippers.  A thin dress also works.  It probably won't rain so no need for an umbrella."</string>
+    <string name="a_m">string resource</string>
+</resources>

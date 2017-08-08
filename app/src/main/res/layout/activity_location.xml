@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/location"
+    tools:context="com.example.owner.weatherme.LocationActivity">
+
+    <Button
+        android:id="@+id/weatherme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather ME"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintVertical_bias="0.928"
+        android:gravity="center"
+        android:background="#95212121"
+        android:layout_below="@+id/entercity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:onClick="showWearInfo"
+        />
+
+    <EditText
+        android:id="@+id/entercity"
+        android:layout_width="345dp"
+        android:layout_height="46dp"
+        android:hint="Enter a city and state/country"
+        android:textSize="23sp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="215dp"
+        android:gravity="center"
+        android:background="#95212121"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:gravity="center"
+        android:text="Weather Me"
+        android:textSize="65sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-thin"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="#30212121">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Location"
+            android:textSize="26sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-thin"
+            android:layout_weight="1"
+            android:layout_marginLeft="12dp"
+            android:onClick="clear" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Weather"
+            android:textSize="26sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-thin"
+            android:layout_weight="1"
+            android:onClick="showWeather"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Settings"
+            android:textSize="26sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-thin"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:onClick="showSettings"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="About"
+            android:textSize="26sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-thin"
+            android:layout_weight="1"
+            android:onClick="showAbout" />
+    </LinearLayout>
+
+
+</RelativeLayout>
