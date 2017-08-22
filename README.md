@@ -13,28 +13,13 @@ displayed can be changed on the "Settings" page.  Finally the "About" page simpl
 
 ### Installing 
 
-### Prerequisites
-
-## Running the tests 
-
-### Break down into end to end tests
-
-### And coding style tests
-
-## Deployment
-
 ## Built With
 * [Android Studio](https://developer.android.com/develop/index.html) - The development framework used
 * [Fresco](https://http://frescolib.org/docs/) - Used to generate animated backgrounds in the form of GIFs
 
-## Contributing
-
-## Versioning
-
 ## Authors
 
 * **Sylvan Wilson** - *Initial work* - [Sirbir](https://github.com/Sirbir)
-
 
 ## License
 
