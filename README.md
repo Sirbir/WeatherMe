@@ -25,7 +25,7 @@ displayed can be changed on the "Settings" page.  Finally the "About" page simpl
 
 ## Built With
 * [Android Studio](https://developer.android.com/develop/index.html) - The development framework used
-* [Maven](https://http://frescolib.org/docs/) - Used to generate animated backgrounds in the form of GIFs
+* [Fresco](https://http://frescolib.org/docs/) - Used to generate animated backgrounds in the form of GIFs
 
 ## Contributing
 
