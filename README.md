@@ -7,3 +7,58 @@ page that will display current weather conditions.  Both the Wear and Weather pa
 based on the current weather conditions. The gender of the people wearing clothes on the wear page and unit of the temperatures
 displayed can be changed on the "Settings" page.  Finally the "About" page simply displays the purpose of the app. 
 
+## Getting Started 
+
+### Prerequisites
+
+### Installing 
+
+### Prerequisites
+
+## Running the tests 
+
+### Break down into end to end tests
+
+### And coding style tests
+
+## Deployment
+
+## Built With
+* [Android Studio](https://developer.android.com/develop/index.html) - The development framework used
+* [Maven](https://http://frescolib.org/docs/) - Used to generate animated backgrounds in the form of GIFs
+
+## Contributing
+
+## Versioning
+
+## Authors
+
+* **Sylvan Wilson** - *Initial work* - [Sirbir](https://github.com/Sirbir)
+
+
+## License
+
+## Acknowledgments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
