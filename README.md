@@ -8,7 +8,7 @@ encounter a "Location" page where they can enter any location via typing or Goog
 An Android phone with an API level of 15 or above.  
 
 ### Installing 
-
+Download the apk [here](https://github.com/Sirbir/WeatherMe/blob/master/app-debug.apk) and install on your phone.
 ## Built With
 * [Android Studio](https://developer.android.com/develop/index.html) - The development framework used
 * [Open Weather API](https://openweathermap.org/current) - Used to get current weather conditions 
